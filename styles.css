@@ -100,11 +100,19 @@ body{
 
 }
 
+ .proceed-btn:hover{
+background: hsl(var(--purple500));
+ }
+
 .cancel-btn{
     background: none;
     color: hsl(var(--gray600));
     padding-bottom: 0;
 
+}
+
+.cancel-btn:hover{
+    color: black;
 }
 
 h1{
@@ -148,6 +156,12 @@ h1{
      align-self: center;
      text-align: center;
 }
+
+.change-btn:hover{
+    color: hsl(var(--purple500));
+}
+
+
 
 .actions{
     width: 100%;
